@@ -1,0 +1,37 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(229, 241, 185)
+    }
+    
+    .header_div{
+        background-color: rgb(192, 239, 219);
+        color:rgb(104, 6, 105)
+    }
+    
+    .header_div p{
+     font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, cursive;
+     color:rgba(240, 0, 212, 0.939);
+     letter-spacing:2px;
+     font-size:12px;
+     font-weight:bold;
+    }
+    
+    .main_div button{
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, cursive;
+    margin-top:30px;
+    width:130px;
+    font-weight:bolder;
+    letter-spacing:3px;
+    }
+    
+    .copy_right_footer{
+    position:fixed;
+    color:rgba(240, 0, 212, 0.939);
+    bottom:0;
+    width:100%;
+    font-size:18px;
+    background-color:rgb(192, 239, 219);
+    line-height:3;
+    text-align:center;
+    text-shadow:5px 5px 5px rgb(192, 239, 219);
+    }

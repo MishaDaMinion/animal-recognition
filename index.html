@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Sound Animal Recognition App :D</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <center>
+    <div id="header_div" class="col-xs-12 header_div text_center">
+      <h2> Sound Animal Recognition :D</h2>
+      <p>Note: Make sounds like bark, quack, meow and moo!</p>
+    </div class = "main_div">
+      
+        <br><br><br>
+        <button id="main_div button" class="btn btn-success" onclick = "startClassification();"> START</button>
+        <h3 id="result_label">I can hear - </h3>
+        <h4 id="result_confidence">Audio - </h4>
+        <br><br>
+        <img src="monkey.jpg" id="default" width="300" height="300">
+        
+      </center>
+      <div class="copy_right_footer">
+       Developed by - Misha Sharan
+      </div>
+<script src="main.js"></script>
+  </body>
+  
+</html>
